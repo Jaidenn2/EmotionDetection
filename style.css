@@ -1,0 +1,21 @@
+#canvas{
+  position: absolute;
+  z-index: 2;
+}
+
+#video{
+  position: absolute;
+  z-index: 1;
+}
+
+#rainbowImage{
+  position: absolute;
+  z-index: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
