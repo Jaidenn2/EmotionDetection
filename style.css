@@ -1,11 +1,11 @@
 #canvas{
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 #video{
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 #rainbowImage{
@@ -19,3 +19,15 @@ html, body {
 canvas {
   display: block;
 }
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  position: relative; /* Make the container a positioned parent */
+}
+
+#canvas-container canvas {
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); /* 
+}
+

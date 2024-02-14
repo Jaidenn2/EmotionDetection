@@ -16,8 +16,11 @@ function Green() {
 function preload() {
   surpriseSound = loadSound('Surprised.mp3');
   rainbowImage = loadImage('rainbow.jpeg');
-
+ 
+  
+  
 }
+
 function setup(){
   canvas = createCanvas(480, 360);
   canvas.id('canvas');
@@ -35,8 +38,8 @@ function setup(){
   faceapi = ml5.faceApi(video, faceOptions, faceReady);
   
   jokeParagraph = createP();
-  jokeParagraph.position(10, 200); 
-  jokeParagraph.style('color', 'black'); 
+  jokeParagraph.position(10, 300); 
+  jokeParagraph.style('color', 'orange'); 
 }
 
 function faceReady(){
